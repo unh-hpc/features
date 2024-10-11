@@ -1,7 +1,7 @@
 {
     "name": "Install ADIOS2",
     "id": "adios2",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A feature to install ADIOS2 in your container",
     "options": {
         "version": {
