@@ -29,6 +29,7 @@ export DEBIAN_FRONTEND=noninteractive
 check_packages curl ca-certificates tar cmake libopenmpi-dev
 
 curl -sLo adios2.tar.gz https://github.com/ornladios/ADIOS2/archive/refs/tags/v${VERSION}.tar.gz
+tar zxvf adios2.tar.gz
 
 mkdir build-adios2
 cmake -B build-adios2 -S ADIOS2-${VERSION}
